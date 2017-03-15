@@ -1,0 +1,13 @@
+:host {
+    display: block;
+}
+
+button:hover {
+    animation: pulse 1s;
+}
+
+@keyframes pulse {
+    70% {
+        transform: scale(1.4);
+    }
+}
